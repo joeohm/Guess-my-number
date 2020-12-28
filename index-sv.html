@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gissa numret!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Gissa numret!</h1>
+      <p class="between">(Mellan 1 och 20)</p>
+      <button class="btn again">Igen!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Gissa!</button>
+      </section>
+      <section class="right">
+        <p class="message">Börja gissa...</p>
+        <p class="label-score">💯 Poäng: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Högsta poäng: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script-sv.js"></script>
+  </body>
+</html>
